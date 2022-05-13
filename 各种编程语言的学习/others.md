@@ -1,5 +1,5 @@
 # 一些其他有的没的（为金鱼脑而设的记事本）
-## git
+## git 
 |**指令**|**用法及功能**|
 |---|---|
 |`git pull origin master`|从github上拉取文件,master对应的是分支名（github默认是main）|
@@ -17,3 +17,4 @@
 |`hugo new site name`|在当前所在目录建立以“name”为名字的文件夹，内含hugo框架的文件|
 |` hugo serve --buildDrafts`|建立本地网站，可查看效果|
 |`hugo --theme="hugo-theme-stack" --baseUrl="https://TheYuhan-Lu.github.io/" --buildDrafts`|在当前目录下创建public文件，建完之后将该文件夹push到git库即可|
+|hugo new post/name.md|在post目录下新建一篇文章| 
