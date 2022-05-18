@@ -19,7 +19,7 @@ homebrew是Mac的包管理器，能够免去安装软件过程中的注册账号
 brew install git 
 ```
 当在终端窗口中输入`git`后，窗口中出现有关git的用法说明，即说明安装成功。
-除以上方法外，你还可以参考[官方安装指导](https://git-scm.com/download/mac)进行安装。
+除以上方法外，你还可以参考[官方安装指导](https://git-scm.com/download/mac)使用其他方法进行安装。
 #### git配置
 1. 用户信息配置
 安装完成后，输入如下命令与github账号绑定（将双引号中的账号信息对应更改为自己的github账号信息）：
@@ -32,7 +32,7 @@ git config --global user.email "example@example.com
 ```
 ssh-keygen -t rsa -C "example@example.com"
 ```
-按照终端窗口的提示按击`enter`键，直至其恢复至等待命令状态，然后输入如下命令查询创建的ssh public key：
+按照终端窗口的提示敲击`enter`键，直至其恢复至等待命令状态，然后输入如下命令查询创建的ssh public key：
 ```
 cat id_rsa.pub
 ```
@@ -50,11 +50,11 @@ brew install hugo
 ## 网站搭建及配置
 
 ### 本地网站的快速搭建
-在想创建的文件下打开终端，输入：
+在想创建的文件目录下打开终端，输入：
 ```
 hugo new site Filename 
 ```
-`Filename`可以自己任意命名，运行完该命令后，会在终端运行的目录下新建一个名为`Filename`的文件夹，文件夹内包含网站的所有内容文件。
+`Filename`可以自己任意命名，运行完该命令后，会在终端运行的目录下新建一个名为`Filename`的文件夹，文件夹内包含网站的所有内容文件，且作为网站根目录。
 
 ### 主题的使用
 进入[hugo主题页面](https://themes.gohugo.io)选择自己喜爱的主题,本文以[stack主题](https://themes.gohugo.io/themes/hugo-theme-stack/)为例
