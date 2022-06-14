@@ -9,7 +9,7 @@
 |`git commit -m "messages"`|commit暂存区至库（Repository）|
 |`git remote add origin URL`|即连接URL指向的远程库|
 |`git push -u origin master`|将本地Repo push至远程仓库中|
-|`git remote set-url origin https://token@github.com/TheYuhan-Lu/reponame.git`|设置成ssh的方式链接远程库，用于私密库的链接|
+|`git remote set-url origin https://token@github.com/TheYuhan-Lu/reponame.git`|设置成ssh的方式链接远程库|
 
 
 ## hugo
